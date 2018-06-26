@@ -370,15 +370,24 @@ nav ul li a:hover {
 	cursor: pointer;
 }
 
-@media (max-width: 960px) {
-
-	#header_title_mt {
-		// margin-top: 85px;
+@media only screen and (max-width: 500px) and (min-width: 300px) {
+	#weather_tab {
+		transform: rotate(-90deg);
+		padding: 0px;
+		top: 200px;
+		right: -70px;
 	}
-
-	.banner h1 {
-		// display: none;
+	#weather_tab h4 {
+		padding: 0 5px 20px;
 	}
+}
+
+@media only screen and (max-width: 750px) and (min-width: 501px) {
+  
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 751px) {
+	
 }
 
 /*--------ads----------*/
@@ -476,6 +485,21 @@ nav ul li a:hover {
 
 .hole_map:hover {
 	width: 10%;
+}
+
+@media only screen and (max-width: 500px) and (min-width: 300px) {
+	#intro {
+		padding: 0 15px 20px;
+		text-align: justify;
+	}
+}
+
+@media only screen and (max-width: 750px) and (min-width: 501px) {
+  
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 751px) {
+	
 }
 
 @media (max-width: 960px) {
