@@ -1,7 +1,7 @@
 //Changes color of navigation bar upon scrolling
 $(document).ready(function() {
     $(window).scroll(function() {
-       if ($(document).scrollTop() > 50) {
+       if ($(document).scrollTop() > 500) {
         $("nav ul").addClass("scroll");
        } else {
         $("nav ul").removeClass("scroll");
@@ -10,7 +10,7 @@ $(document).ready(function() {
 
 //Changes color of li elements to white
     $(window).scroll(function() {
-       if ($(document).scrollTop() > 50) {
+       if ($(document).scrollTop() > 500) {
         $("li a").addClass("scroll2");
        } else {
         $("li a").removeClass("scroll2");
@@ -37,6 +37,13 @@ $(document).ready(function() {
         });
     });
 
+
+// Toggles the hamburger icon
+
+  $(".hamburger").on('click', function() {
+    $(this).toggleClass("open");
+    $('nav').toggle(900);
+  })
 
 // //Transitions weather div offscreen upon scroll
 // $(document).ready(function(){
