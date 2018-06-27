@@ -375,8 +375,8 @@ nav ul li a:hover {
 	#weather_tab {
 		transform: rotate(-90deg);
 		padding: 0px;
-		bottom: -520px;
-		right: -640px;
+		bottom: -350px;
+		right: -600px;
 	}
 	#weather_tab h4 {
 		padding: 0 5px 20px;
