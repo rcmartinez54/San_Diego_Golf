@@ -163,14 +163,15 @@ nav ul li a:hover {
 		z-index: 5;
 		background: black;
 		opacity: 0.5;
+		margin: 15px;
 	}
 
 	.hamburger {
 		display: block;
 		position: relative;
 		float: left;
-		width: 60px;
-		height: 40px;
+		width: 35px;
+		height: 30px;
 		margin: 10px;
 		cursor: pointer;
 		z-index: 5;
@@ -186,13 +187,13 @@ nav ul li a:hover {
 	}
 
 	.hamburger .one {
-		top: 7px;
+		top: 5px;
 	}
 	.hamburger .two, .hamburger .three {
-		top: 17px;
+		top: 15px;
 	}
 	.hamburger .four {
-		top: 27px;
+		top: 25px;
 	}
 
 	.hamburger.open .one, .hamburger.open .four {
