@@ -838,34 +838,63 @@ nav ul li a:hover {
 	width: 15%;
 }
 
-@media (max-width: 960px) {
-
-	#join {
-		width: 80%;
-		margin: auto;
-		padding-top: 20px;
-	}
-
-	#join_buttons {
-		width: 70%;
-	}
-
-	#ads_btn{
-		margin-left: 0;
-		margin-top: 25px;
-		margin-bottom: 10px;
-	}
-
+@media only screen and (max-width: 500px) and (min-width: 300px) {
 	#mt_signup {
+		float: none;
+		width: 100%;
 		text-align: center;
 	}
 	#mt_signup img {
 		float: none;
+		margin-top: 15px;
 	}
-	#mt_signup button {
-		margin: 10px 0;
+	#join_buttons {
+		width: 100%;
+		float: none;
+	}
+	#ads_btn {
+		width: 80%;
+		margin: 15px;
+		background: limegreen;
 	}
 }
+
+@media only screen and (max-width: 750px) and (min-width: 501px) {
+  
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 751px) {
+	
+}
+
+// @media (max-width: 960px) {
+
+// 	#join {
+// 		width: 80%;
+// 		margin: auto;
+// 		padding-top: 20px;
+// 	}
+
+// 	#join_buttons {
+// 		width: 70%;
+// 	}
+
+// 	#ads_btn{
+// 		margin-left: 0;
+// 		margin-top: 25px;
+// 		margin-bottom: 10px;
+// 	}
+
+// 	#mt_signup {
+// 		text-align: center;
+// 	}
+// 	#mt_signup img {
+// 		float: none;
+// 	}
+// 	#mt_signup button {
+// 		margin: 10px 0;
+// 	}
+// }
 
 /*---------Footer-----------*/
 
