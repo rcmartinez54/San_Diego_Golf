@@ -224,6 +224,9 @@ nav ul li a:hover {
 	nav ul li a {
 		padding: 10px 12px;
 	}
+	.scroll2 {
+		padding: 10px 12px;
+	}
 }
 
 @media only screen and (max-width: 975px) and (min-width: 751px) {
