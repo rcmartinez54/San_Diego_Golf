@@ -28,7 +28,7 @@ body {
 #wrapper {
 	margin: 0 auto;
 	max-width: 81.25em;
-	
+	overflow: hidden;
 }
 
 #section_wrap {
@@ -425,6 +425,23 @@ nav ul li a:hover {
 
 #ads h4 {
 	margin-top: 0;
+}
+
+@media only screen and (max-width: 500px) and (min-width: 300px) {
+	#ads img {
+		width: 98%;
+	}
+	#ads h4 {
+		font-size: 15px;
+	}
+}
+
+@media only screen and (max-width: 750px) and (min-width: 501px) {
+  
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 751px) {
+	
 }
 
 @media (max-width: 960px) {
