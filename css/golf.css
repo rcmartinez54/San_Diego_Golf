@@ -238,12 +238,6 @@ nav ul li a:hover {
 	}
 }
 
-
-
-
-
-
-
 /*---------Header--------------*/
 
 #header_title_mt {
@@ -336,7 +330,7 @@ nav ul li a:hover {
 	padding: 20px;
 	box-sizing: border-box;
 	width: 273px;
-	background: url('../img/Partly_Cloudy.png');
+	background: rgba(255, 255, 255, 0.9);
 	background-size: cover;
 	border-top-left-radius: 5px;
 	border-bottom-right-radius: 5px;
