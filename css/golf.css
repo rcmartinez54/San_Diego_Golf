@@ -386,13 +386,11 @@ nav ul li a:hover {
 
 @media only screen and (max-width: 500px) and (min-width: 300px) {
 	#weather_tab {
-		transform: rotate(-90deg);
 		padding: 0px;
-		bottom: -330px;
-		right: -545px;
+		top: 15px;
 	}
 	#weather_tab h4 {
-		padding: 0 5px 20px;
+		padding: 0 5px 5px;
 	}
 }
 
