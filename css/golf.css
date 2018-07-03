@@ -392,9 +392,6 @@ nav ul li a:hover {
 	#weather_tab h4 {
 		padding: 0 5px 5px;
 	}
-	#get_weather {
-		height: 300px;
-	}
 }
 
 @media only screen and (max-width: 750px) and (min-width: 501px) {
