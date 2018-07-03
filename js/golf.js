@@ -80,7 +80,7 @@ window.onclick = function(e) {
 
 // Gets current weather from WUnderground
 
-  $.ajax('http://api.wunderground.com/api/a52847f154aa6347/conditions/q/CA/San_Diego.json', {
+  $.ajax('https://api.wunderground.com/api/a52847f154aa6347/conditions/q/CA/San_Diego.json', {
     dataType: 'jsonp',
     success: function(data) {
       let displayLocation = data.current_observation.display_location.full, 
