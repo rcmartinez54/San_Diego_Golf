@@ -240,67 +240,11 @@ nav ul li a:hover {
 
 /*---------Header--------------*/
 
-#header_title_mt {
-	margin: 0 auto;
-	background: url('../img/golf_cover.jpg') no-repeat;
-	background-size: cover;
-	height: 100vh;
-}
-
-#header_title_coronado {
-	height: 100vh;
-	margin: 0 auto;
-	background: url('../img/coronado_gc.jpg') no-repeat;
-	background-size: cover;
-}
-
-#header_title_bonita {
-	height: 100vh;
-	margin: 0 auto;
-	background: url('../img/bonita_gc.jpg') no-repeat;
-	background-size: cover;
-}
-
-#header_title_mb {
-	height: 100vh;
-	margin: 0 auto;
-	background: url('../img/mission_bay_gc.jpg') no-repeat;
-	background-size: cover;
-}
-
-#header_title_gh {
-	height: 100vh;
-	margin: 0 auto;
-	background: url('../img/goat_hill.jpg') no-repeat;
-	background-size: cover;
-}
-
-#header_title_gh img {
-	width: 10%;
-	border: solid;
-	border-radius: 50%;
-	float: right;
-	margin-right: 30px;
-	margin-top: 235px;
-}
-
-#header_title_cmr {
-	height: 100vh;
-	margin: 0 auto;
-	background: url('../img/cmr_gc.jpg') no-repeat;
-	background-size: cover;
-}
-
-#header_title_rw {
-	height: 100vh;
-	margin: 0 auto;
-	background: url('../img/riverwalk_gc.jpg') no-repeat;
-	background-size: cover;
-}
-
 .banner {
 	position: relative;
 	color: white;
+	height: 100vh;
+	margin: 0 auto;
 }
 
 .banner h1 {
@@ -321,6 +265,55 @@ nav ul li a:hover {
 	color: black;
 	font-weight: bolder;
 	text-transform: capitalize;
+}
+
+#header_title_mt {
+	background: url('../img/golf_cover.jpg') no-repeat;
+	background-size: cover;
+}
+
+#header_title_coronado {
+	background: url('../img/coronado_gc.jpg') no-repeat;
+	background-size: cover;
+}
+
+#header_title_bonita {
+	background: url('../img/bonita_gc.jpg') no-repeat;
+	background-size: cover;
+}
+
+#header_title_mb {
+	background: url('../img/mission_bay_gc.jpg') no-repeat;
+	background-size: cover;
+}
+
+#header_title_gh {
+	background: url('../img/goat_hill.jpg') no-repeat;
+	background-size: cover;
+}
+
+#header_title_gh img {
+	width: 10%;
+	border: solid;
+	border-radius: 50%;
+	float: right;
+	margin-right: 30px;
+	margin-top: 235px;
+}
+
+#header_title_cmr {
+	background: url('../img/cmr_gc.jpg') no-repeat;
+	background-size: cover;
+}
+
+#header_title_rw {
+	background: url('../img/riverwalk_gc.jpg') no-repeat;
+	background-size: cover;
+}
+
+#header_title_ab {
+	background: url('../img/adBaker.jpg') no-repeat;
+	background-size: cover;
 }
 
 #get_weather {
@@ -757,6 +750,15 @@ nav ul li a:hover {
 
 #rw_signup img {
 	width: 15%;
+}
+
+#ab_signup {
+	text-align: center;
+}
+
+#ab_signup img {
+	width: 16%;
+	margin-top: 7px;
 }
 
 @media only screen and (max-width: 500px) and (min-width: 300px) {
